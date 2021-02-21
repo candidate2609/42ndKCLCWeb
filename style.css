@@ -12,6 +12,19 @@ ul{
 
 .navbar{
   background-color: rgba( 21, 48, 91, 0.8);
+  animation-name: fadedown;
+  animation-duration: 2s;
+}
+
+@keyframes fadedown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .navbar-brand{
