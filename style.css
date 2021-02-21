@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+body{
+  background-color: black;
+  font-family: "Raleway","Noto Sans JP",sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+.navbar{
+  background-color: rgba( 21, 48, 91, 0.8);
+  animation-name: fadedown;
+  animation-duration: 2s;
+}
+
+@keyframes fadedown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.navbar-brand{
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.card-title{
+  letter-spacing: 1px;
+}
+
+.carousel-caption{
+  background-color: rgba( 21, 48, 91, 0.5);
+}
+
+.section-title-left{
+  color: white;
+  background: radial-gradient(closest-side,#15305B, rgba(0, 0,0, 0)); 
+}
+
+.section-title-left h1{
+  font-size: 100px;
+  letter-spacing: 2px;
+}
+
+.section-title-left p{
+  letter-spacing: 10px;
+}
+
+.section-title-right{
+  color: white;
+  background: radial-gradient(closest-side,#15305B, rgba(0, 0,0, 0)); 
+}
+
+.section-title-right h1{
+  font-size: 100px;
+  letter-spacing: 2px;
+}
+
+.section-title-right p{
+  letter-spacing: 10px;
+  text-align: right;
+}
+
+.achievements-list{
+   display: inline-block;
+   text-align: left;
+}
+
+.list-group-item{
+  letter-spacing: 1px;
+  background-color: rgba(0, 0,0, 0);
+  color: white;
+  font-weight: 100;
+}
+
+.card{
+  background-color: rgba( 21, 48, 91, 1);
+}
+
+.card-header{
+  text-align: center;
+}
+
+.fab{
+  color: white;
+}
+
+.events-list{
+  background:linear-gradient(to right,gray 100%, gray 100%)
+  right bottom/1px 4px repeat-y;
+  background-color: aqua;
+}
