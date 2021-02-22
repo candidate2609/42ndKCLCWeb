@@ -11,9 +11,14 @@ ul{
 }
 
 .navbar{
-  background-color: rgba( 21, 48, 91, 0.8);
+  background-color: rgba( 21, 48, 91, 0.5);
   animation-name: fadedown;
   animation-duration: 2s;
+}
+
+.navbar-message{
+  letter-spacing: 1px;
+  font-size: large;
 }
 
 @keyframes fadedown {
@@ -36,8 +41,13 @@ ul{
   letter-spacing: 1px;
 }
 
+.activity-card-text{
+  color: #bfbfbe;
+}
+
 .carousel-caption{
-  background-color: rgba( 21, 48, 91, 0.5);
+  letter-spacing: 1px;
+  background-color: rgba( 21, 48, 91, 0.7);
 }
 
 .section-title-left{
@@ -82,7 +92,7 @@ ul{
 }
 
 .card{
-  background-color: rgba( 21, 48, 91, 1);
+  background-color: rgba( 21, 48, 91,0.7);
 }
 
 .card-header{
@@ -101,4 +111,15 @@ ul{
 
 .footer{
   color: white;
+  background-color: rgba( 21, 48, 91, 0.5);
+}
+
+.footer-links{
+  background:linear-gradient(to right,gray 100%, gray 100%)
+  right top/4px 0.1px repeat-x;
+}
+
+.dropdown-secondary{
+  font-size: small;
+  color: gray;
 }

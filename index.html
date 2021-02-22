@@ -11,7 +11,7 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.png">
+    <link rel="icon" href="images/icon.png">
 </head>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
@@ -20,7 +20,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class=" container-fluid">
+        <div class="container-fluid">
             <a class="navbar-brand" href="">KCLC</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -32,25 +32,32 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class=" nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Downloads
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://kclc.net/dl/KCLC-2020.zip">ゲーム</a></li>
+                            <li><a class="dropdown-item" href="KCLC-2020.zip">ゲーム<br><span
+                                        class="dropdown-secondary">138.8MiB | For Windows
+                                        7/8.1/10<br>最終更新：2021/1/3</span></a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="https://kclc.net/dl/41st%E9%83%A8%E8%AA%8C.zip">部誌</a>
+                            <li><a class="dropdown-item" href="41st部誌.zip">部誌<br><span class="dropdown-secondary">1.5MiB
+                                        | JOI攻略テクニック集
+                                        付属<br>最終更新：2021/1/3</span></a>
                             </li>
                         </ul>
                     </li>
                 </ul>
+                <span class="navbar-text navbar-message" style="color: white;">
+                    Let's Embug.
+                </span>
             </div>
         </div>
     </nav>
-    <div id="carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div id=" carouselExampleCaptions" class="carousel slide mb-5" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -61,7 +68,7 @@
             <div class="carousel-item active">
                 <img src="images/BigImageKCLC.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-right">
-                    <h1>Let's Embug.</h1>
+                    <h1>開成学園コンピューター部</h1>
                     <p>中学化学実験室を活動拠点とする、コンピュータ好きが集まった部活です。</p>
                 </div>
             </div>
@@ -69,7 +76,7 @@
                 <img src="images/BigImageBook.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h1>各種ダウンロード</h1>
-                    <p>ナビゲーションバーの「Downloads」から、文化祭に出品したゲームと部誌をダウンロードできます。</p>
+                    <p>画面左上の「Downloads」から、文化祭に出品したゲームと部誌をダウンロードできます。</p>
                 </div>
             </div>
         </div>
@@ -95,7 +102,8 @@
                     <img src="images/ActivityImage/CompetitionProgramming.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">競技プログラミング</h5>
-                        <p class="card-text">数学的な問題を、コンピュータの処理能力を利用していかに早く正確に解けるかを競う競技です。部員の多くが取り組んでいます。</p>
+                        <p class="card-text activity-card-text">
+                            数学的な問題を、コンピュータの処理能力を利用していかに早く正確に解けるかを競う競技です。部員の多くが取り組んでいます。</p>
                         <!--<a href="#" class="btn btn-dark">競プロ講座はこちら</a>-->
                     </div>
                 </div>
@@ -103,22 +111,22 @@
                     <img src="images/ActivityImage/GameDev.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">ゲーム開発</h5>
-                        <p class="card-text">新入部員はまずゲーム開発を習うところから始めます。主に文化祭に向けて開発をしています。</p>
-                        <a href="https://kclc.net/dl/KCLC-2020.zip" class="btn btn-dark">ダウンロードはこちら</a>
+                        <p class="card-text activity-card-text">新入部員はまずゲーム開発を習うところから始めます。主に文化祭に向けて開発をしています。</p>
+                        <a href="KCLC-2020.zip" class="btn btn-dark">ダウンロードはこちら</a>
                     </div>
                 </div>
                 <div class="card m-4 text-white" style="width: 16rem;">
-                    <img src="images/CardImage.jpg" class="card-img-top" alt="...">
+                    <img src="images/ActivityImage/DTM.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">DTM</h5>
-                        <p class="card-text">コンピュータを使って様々な電子音を組み合わせ、曲を作ります。</p>
+                        <p class="card-text activity-card-text">コンピュータを使って様々な電子音を組み合わせ、曲を作ります。</p>
                     </div>
                 </div>
                 <div class="card m-4 text-white" style="width: 16rem;">
-                    <img src="images/CardImage.jpg" class="card-img-top" alt="...">
+                    <img src="images/ActivityImage/Others.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">その他</h5>
-                        <p class="card-text">機械学習やプログラミング言語開発、Web開発などを行っている部員もいます。</p>
+                        <p class="card-text activity-card-text">機械学習やプログラミング言語開発、モバイル開発、Web開発などを行っています。</p>
                     </div>
                 </div>
             </div>
@@ -190,7 +198,8 @@
                                 Freshmen Conetst」通称KFCと呼ばれる中1のみを対象としたチーム対抗ゲーム作成コンテストを開催しています。
                             </p>
                             <p class="card-text">
-                                SuperCon予選では、競技期間中に問題の答えをどれだけ正解に近づけられるかを競います。突破すると、大学にあるスーパーコンピュータを使って競技する本選に進めます。 </p>
+                                SuperCon予選では、競技期間中に問題の答えをどれだけ正解に近づけられるかを競います。突破すると、大学にあるスーパーコンピュータを使って競技する本選に進めます。
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -316,7 +325,7 @@
                                         二次予選まではオンラインで行われます。二次予選を突破すると本選に進めるので、皆気合を入れて臨みます。
                                     </p>
                                     <p class="card-text">
-                                        筑駒のパソコン研究部が主催する合宿にKCLCも外部枠として参加しています。数日間にわたる内容の濃い合宿でパソコン力を高めます。
+                                        筑駒のパソコン研究部（通称パ研）が主催する合宿にKCLCも外部枠として参加しています。数日間にわたる内容の濃い合宿でパソコン力を高めます。
                                     </p>
                                 </div>
                             </div>
@@ -366,15 +375,17 @@
                 </div>
             </div>
     </section>
-    <footer class="footer" style="background-color: #36393F;">
+    <footer class="footer">
         <div class="d-flex flex-column align-items-center p-4" style="letter-spacing: 1px;">
             <h1 clas>Kaisei Computer Lover's Club</h1>
             <p>Let's Embug.</p>
         </div>
         <div class="d-flex justify-content-center">
-            <p class="px-3">twitter</p>
-            <p class="px-3">競プロ講座</p>
-            <p class="px-3">instagram</p>
+            <div class="d-inline-flex footer-links justify-content-center">
+                <a href="https://twitter.com/42ndKCLC" class="m-4"><i class="fab fa-twitter"></i></a>
+                <address class="m-4">お問い合わせは <a href="mailto:kclc.computer@gmail.com" style="color: white;">こちら</a>
+                </address>
+            </div>
         </div>
         <div class="d-flex justify-content-end mx-3" style="font-size: small;">&copy; 2021 開成学園コンピューター部</div>
     </footer>
